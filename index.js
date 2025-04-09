@@ -13,6 +13,7 @@ app.get('/', (req, res) => {
 
 app.use('/api/auth', authRoutes)
 
+
 app.listen("3000", (req, res) => {
   console.log("server is runnig on port 3000");
 });
